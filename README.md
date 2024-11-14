@@ -18,17 +18,17 @@ The Levenshtein distance is a powerful tool for various applications, including:
 By allowing custom costs for different operations, this script provides greater flexibility and can be tailored to specific use cases where certain types of edits are more or less likely or costly.
 
 ### Example
-\`\`\`bash
+
 Enter the first word: kitten
 Enter the second word: sitting
 Enter the costs for insertion, deletion, and replacement: 1 1 2
 Optimal cost: 5
-\`\`\`
 
 In this example:
-- The insertion cost is 1.
-- The deletion cost is 1.
-- The replacement cost is 2.
+
+    The insertion cost is 1.
+    The deletion cost is 1.
+    The replacement cost is 2.
 
 The optimal cost of 5 represents the minimal number of operations needed to transform "kitten" into "sitting" with the specified costs.
 
