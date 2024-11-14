@@ -6,6 +6,17 @@ This script calculates the Levenshtein distance between two strings, allowing th
 
 The Levenshtein distance is a metric for measuring the difference between two sequences. It is defined as the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into the other. In this implementation, the user can define specific costs for each type of operation, making the metric more flexible for various use cases.
 
+## Why
+
+The Levenshtein distance is a powerful tool for various applications, including:
+
+- Spell Checking: Identifying and correcting spelling errors in text.
+- DNA Sequencing: Comparing genetic sequences to identify mutations or similarities.
+- Natural Language Processing: Measuring the similarity between words or phrases for tasks like text classification and machine translation.
+- Data Cleaning: Detecting and correcting errors in datasets, such as typos in names or addresses.
+
+By allowing custom costs for different operations, this script provides greater flexibility and can be tailored to specific use cases where certain types of edits are more or less likely or costly.
+
 ### Example
 \`\`\`bash
 Enter the first word: kitten
